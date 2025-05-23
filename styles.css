@@ -68,6 +68,9 @@ section{
 a{
         text-decoration: none;
     }
+    section div{
+        text-align: left;
+    }
 ol li{
     font-size: 20px;
 }
