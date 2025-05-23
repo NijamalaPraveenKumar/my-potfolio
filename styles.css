@@ -8,7 +8,7 @@ body{
 }
 header{
     color: white;
-    height: 100vh;
+   
     background-color: #2196F3;
     display: flex;
     text-align: center;
@@ -53,7 +53,7 @@ main{
     padding: 20px;
 }
 section{
-    height: 100vh;
+   
     border: 1px solid gray;
         border-radius: 20px;
         margin-bottom: 20px;
@@ -78,6 +78,7 @@ form div{
 
     margin: 5px 0;
 }
+
 .Submit{
     height: 40px;
     width: 140px;
@@ -122,6 +123,47 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .button, .Submit {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  section {
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+
+  table {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .fixedbutton {
+    height: 50px;
+    width: 50px;
+    font-size: 12px;
+  }
+
+  header {
+    height: auto;
+    padding: 20px;
+  }
 }
 
    
